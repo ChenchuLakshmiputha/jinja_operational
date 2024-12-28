@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        conditions
+    {% if a > 100 %}
+        <h1>{{a}}</h1>
+    {% endif %}
+
+    {% if age > 17 %}
+        <h1>{{name}} u r eligible to vote.</h1>
+    {% else %}
+        <h1>{{name}} u r not eligible for vote.</h1>
+    {% endif %}
+
+    {% if a > 0 %}
+        <h1>{{a}} is positive number</h1>
+    {% elif a < 0 %}
+        <h1>{{a}} is negative number</h1>
+    {% else %}
+        <h1>{{a}} is zero</h1>
+    {% endif %}
+
+</center>
+</body>
+</html>
